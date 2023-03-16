@@ -18,7 +18,6 @@ while y < n:
  
 
 '''
-
 n1 = int(input("Enter Start from Value series : "))
 n2 = int(input("Enter End Value : "))
 x = 0
@@ -28,5 +27,3 @@ while n1 < n2:
     x,n1 = n1,x+n1
 
 '''
-
-
