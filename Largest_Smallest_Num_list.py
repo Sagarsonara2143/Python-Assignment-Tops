@@ -24,7 +24,7 @@ def listCount(n):
     for i in range(len(l)):
         sum = sum + l[i]
         i = sum
-    print("Sum of List Value is : ",sum)
+    print("Sum of List ValueS are : ",sum)
 
     
 
