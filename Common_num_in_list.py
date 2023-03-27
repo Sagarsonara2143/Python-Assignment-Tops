@@ -24,7 +24,8 @@ for j in range(m):
     data = int(input("Enter Data for List 1 : "))
     l2.append(data)
 
-
+print("*"*50)
 print("List 1 is : ",l1)
 print("List 2 is : ",l2)
 print(common_num(l1,l2))
+print("*"*50)
