@@ -10,9 +10,21 @@ def common_num(list1,list2):
     return ""
 
 
-l1 = [1,3,5,7,9,11,13,15,17]
-l2 = [1,2,3,4,5,6,7,8,9,10,11]
+l1 = []
+l2 = []
+
+n = int(input("Enter Length of List 1 : "))
+for i in range(n):
+    data = int(input("Enter Data for List 1 : "))
+    l1.append(data)
+
+
+m = int(input("Enter Length of List 2 : "))
+for j in range(m):
+    data = int(input("Enter Data for List 1 : "))
+    l2.append(data)
+
+
 print("List 1 is : ",l1)
 print("List 2 is : ",l2)
 print(common_num(l1,l2))
-
