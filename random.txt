@@ -1,0 +1,5 @@
+This is Example of File Management in Python.
+Second Line Added in File
+Third Line Added in File
+Fourth Line Added in File
+Fifth Line Added in File
