@@ -8,8 +8,11 @@ file.write("Sandhya\n")
 file.close()
 
 file=open("listfile.txt","r")
-a = file.read()
-list=[]
-for i in a.split():
-    print(i)
+a = file.readlines()
+l=[]
+for i in a:
+    l.append(i)
+    print(i,end="")
+
+print(l)
 file.close()
